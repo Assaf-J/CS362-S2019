@@ -19,16 +19,19 @@ char *inputString()
 	
 	int length = 5;
 	char *s = malloc(sizeof(char) * length);
-		
+	//set entire string to null terminator
+	for (int i = 0; i < length+1; i++)
+	{
+		s[i] =  '\0';
+	}
 	for (int i = 0; i < length; i++)
 	{
-		char letters[] = "erst";
+		char letters[] = "esrt";
 		char randomLetter = letters[rand() % 4];
 		s[i] = randomLetter;
 		
 	}
-	//add null terminator to end of the sequence
-	s[length] = '\0';
+
 	return s;
 }
 
