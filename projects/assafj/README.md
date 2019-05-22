@@ -1,4 +1,2 @@
-assafj, 931969008 
+Jennifer Assaf- Assafj
 =======
-This is my assignment-1 submission!
- assafj-assignment-1
